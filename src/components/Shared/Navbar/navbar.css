@@ -1,0 +1,23 @@
+ul li{
+  margin-bottom: 8px ;
+}
+ul li a{
+  font-weight: 700;
+  font-size: 1rem;
+}
+li:hover{
+  color:var(--clr-focused);
+  text-decoration: underline;
+}
+
+.darken .dropdown-content{
+ background-color: var(--clr-dark);
+}
+
+
+@media screen and (min-width: 1024px) {
+  ul li{
+    margin-right: 12px ;
+  }
+
+}
